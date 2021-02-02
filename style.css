@@ -1,0 +1,47 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: steelblue;
+    overflow: hidden;
+}
+
+.tennis-ball {
+    width: 10%;
+    position: absolute;
+    animation-name: tennis;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+
+
+
+@keyframes tennis {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 90vh;
+        left: 50vw;
+    }
+
+    50% {
+        top: 20vh;
+        left: 90vw;
+    }
+
+    75% {
+        top: 90vh;
+        left: 40vw;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
